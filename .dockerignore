@@ -1,0 +1,12 @@
+node_modules
+
+dist
+
+uploads
+
+coverage
+
+.DS_Store
+
+.env*
+!.env.example
