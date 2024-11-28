@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+
+    "target": "es2024",
+    "module": "es2022",
+    "moduleResolution": "bundler",
+
+    "esModuleInterop": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "types": ["node"],
+
+    "paths": {
+      "#/*": ["./src/*"]
+    }
+  }
+}
