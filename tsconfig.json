@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+
+    "module": "es2022",
+    "target": "es2022",
+    "moduleResolution": "node",
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "paths": {
+      "#/*": ["./src/*"]
+    }
+  }
+}
