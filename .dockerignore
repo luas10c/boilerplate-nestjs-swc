@@ -1,0 +1,14 @@
+node_modules
+
+dist
+
+uploads
+
+coverage
+
+.eslintcache
+
+.DS_Store
+
+.env*
+!.env.example

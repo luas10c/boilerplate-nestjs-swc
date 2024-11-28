@@ -1,0 +1,14 @@
+node_modules
+
+dist
+
+.DS_Store
+
+coverage
+
+.eslintcache
+
+tsconfig.tsbuildinfo
+
+.env*
+!.env.example
