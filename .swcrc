@@ -1,0 +1,28 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "jsc": {
+    "baseUrl": "./",
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true
+    },
+    "target": "es2022",
+    "keepClassNames": true,
+    "loose": false,
+    "transform": {
+      "decoratorMetadata": true,
+      "legacyDecorator": true
+    },
+    "paths": {
+      "#/*": ["./src/*"]
+    }
+  },
+  "sourceMaps": true,
+  "inlineSourcesContent": true,
+  "module": {
+    "type": "es6",
+    "strict": true,
+    "noInterop": true,
+    "resolveFully": true
+  }
+}
